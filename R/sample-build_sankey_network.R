@@ -71,18 +71,18 @@ build_sankey_network <- function(my_report, taxRanks =  c("D","K","P","C","O","F
         xAxisDomain = my_taxRanks,
         numberFormat = "pavian",
         title = title,
-        nodeWidth = 60,
+        nodeWidth = 10,
         linkGradient = TRUE,
         nodeShadow = TRUE,
         nodeCornerRadius = 5,
         units = "cladeReads",
-        fontSize = 10,
+        fontSize = 5,
         iterations = maxn * 100,
         align = "none",
         highlightChildLinks = TRUE,
         orderByPath = TRUE,
         scaleNodeBreadthsByString = TRUE,
-	xScalingFactor = 2,
+	
         zoom = zoom,
 	...
       )
