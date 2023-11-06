@@ -76,6 +76,7 @@ build_sankey_network <- function(my_report, taxRanks =  c("D","K","P","C","O","F
         nodeCornerRadius = 5,
         units = "cladeReads",
         fontSize = 20,
+	fontColor ='green',
         iterations = maxn * 100,
         align = "none",
         highlightChildLinks = TRUE,
