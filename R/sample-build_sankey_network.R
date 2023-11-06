@@ -82,6 +82,7 @@ build_sankey_network <- function(my_report, taxRanks =  c("D","K","P","C","O","F
         highlightChildLinks = TRUE,
         orderByPath = TRUE,
         scaleNodeBreadthsByString = TRUE,
+	xScalingFactor = 2,
         zoom = zoom,
 	...
       )
