@@ -115,7 +115,7 @@ collapse.taxRanks <- function(krakenlist,keep_taxRanks=LETTERS,filter_taxon=NULL
   return(res)
 }
 
-delete_taxRanks_below <- function(report,taxRank="S") {
+delete_taxRanks_below <- function(report,taxRank="S1") {
   del_taxRank <- 0
   do_del <- FALSE
   del_row <- 0
