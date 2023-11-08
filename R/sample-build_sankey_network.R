@@ -1,4 +1,4 @@
-build_sankey_network <- function(my_report, taxRanks =  c("D","K","P","C","O","F","G","S", "S1"), maxn=11,
+build_sankey_network <- function(my_report, taxRanks =  c("D","K","P","C","O","F","G","S", "S1"), maxn=10,
 				 zoom = F, title = NULL,
 				 ...) {
     stopifnot("taxRank" %in% colnames(my_report))
